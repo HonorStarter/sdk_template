@@ -1,7 +1,9 @@
+#项目的描述文件
+
 [package]
 name = "template"
-version = "0.1.0"
-edition = "2021"
+version = "0.1.0"  #版本号
+edition = "2021"   #具体的版式，每3年更新一版，用于兼容
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
