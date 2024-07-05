@@ -17,6 +17,7 @@ jobs:
   build-rust:
     strategy:
       matrix:
+        # 运行平台是否能通过
         platform: [ubuntu-latest]
     runs-on: ${{ matrix.platform }}
     steps:
